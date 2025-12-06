@@ -1,18 +1,18 @@
-//  Base YT : @YASSxOFC 
-//  Recode By famofc bot v12
-//  90% Fitur By famofc
+//  Base YT : @ronyskies1
+//  Recode By ronyskies bot v12
+//  90% Fitur By RGM SKIES 
 
 require("./system/module.js")
 
 // >~~~~~~ Setting Bot & Owner  ~~~~~~~< //
-global.owner = "923350963366"
-global.namabot = "famofc bot v12" 
-global.namaowner = " famofc"
-global.linkgc = 'https://chat.whatsapp.com/'
-global.linksaluran = "https://whatsapp.com/channel/"
-global.fotomenu = "https://img1.pixhost.to/images/7296/623098761_imgtmp.jpg"
+global.owner = "27696397895"
+global.namabot = "RONY_SKIES bot v12" 
+global.namaowner = "RONY"
+global.linkgc = 'https://chat.whatsapp.com/BL0erai5W6O1dKGMczM7vG?mode=hqrc'
+global.linksaluran = "https://whatsapp.com/channel/0029VbBnRol1XquTPCwUsk15"
+global.fotomenu = "https://files.catbox.moe/ubda93.mp4"
 global.packname = "Vertin"
-global.author = "YASSxOFC"
+global.author = "RONSKIES"
 
 
 // >~~~~~~~~ Setting Channel ~~~~~~~~~< //
@@ -20,7 +20,7 @@ global.idsaluran = "120363390114292114@newsletter"
 global.namasaluran = "Vertin [ Whatsapp Channel ]"
 
 
-global.image = "https://img1.pixhost.to/images/7296/623098761_imgtmp.jpg"
+global.image = "https://files.catbox.moe/y6n03o.jpg"
 
 // >~~~~~~~~ Setting Payment ~~~~~~~~~< //
 global.dana = "Belum tersedia"
@@ -40,11 +40,11 @@ global.capikey = "ptlc" // Isi api ptlc
 
 // >~~~~~~~~ Setting Message ~~~~~~~~~< //
 global.msg = {
-  wait: "پروسیس ہو رہا ہے۔۔۔",
-  owner: "یہ فیچر صرف اونر کے لیے ہے!",
-  group: "یہ فیچر گروپ کے اندر کے لیے ہے!",
-  admin: "یہ فیچر گروپ ایڈمن کے لیے ہے!",
-  botadmin: "یہ فیچر صرف تب کام کرتا ہے جب بوٹ ایڈمن ہو"
+  wait: "Está processando…",
+  owner: "Este recurso é somente para o dono!",
+  group: "Esse recurso é para ser usado dentro do grupo!",
+  admin: "Este recurso é para os administradores do grupo!",
+  botadmin: "Este recurso só funciona quando o bot é administrador."
 }
 
 // >~~~~~~~ Setting Api Domain ~~~~~~~~< //
