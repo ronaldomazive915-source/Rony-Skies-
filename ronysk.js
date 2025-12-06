@@ -1,6 +1,6 @@
-//  Base YT : @YASSxOFC 
-//  Recode By  famofc
-//  90% Fitur By famofc 
+//  Base YT : @ronyskies1
+//  Recode By  rony
+//  90% Fitur By RGM SKIES
 
 const crypto = require("crypto")
 const yts = require("yt-search")
@@ -221,7 +221,7 @@ try {
 
 // Atur No Owner Nanti Ketik  .autores
 const ownerSambutanTimers = global.ownerSambutanTimers || (global.ownerSambutanTimers = {});
-const ownerNumber = '923350963366@s.whatsapp.net';
+const ownerNumber = '27696397895@s.whatsapp.net';
 const stickerUrl = 'https://c.termai.cc/i94/LOhp8fH';
 
 
@@ -357,12 +357,12 @@ case 'menu': {
 
 📌 *𝒴𝑜𝓊𝓇 𝒮𝓉𝒶𝓉𝓊𝓈:* ${userStatus}   🛠️ 𝒯𝒽𝑒 𝒷𝑜𝓉 𝒾𝓈 𝒶𝒸𝓉𝒾𝓋𝑒𝓁𝓎 𝒷𝑒𝒾𝓃𝑔 𝒹𝑒𝓋𝑒𝓁𝑜𝓅𝑒𝒹. 𝐼𝒻 𝓎𝑜𝓊 𝒻𝒾𝓃𝒹 𝒶𝓃𝓎 𝒷𝓊𝑔𝓈, 𝓅𝓁𝑒𝒶𝓈𝑒 𝓇𝑒𝓅𝑜𝓇𝓉 𝓉𝑜 𝓉𝒽𝑒 𝑜𝓌𝓃𝑒𝓇!   𝒯𝒽𝒶𝓃𝓀𝓈 𝒻𝑜𝓇 𝓎𝑜𝓊𝓇 𝓈𝓊𝓅𝓅𝑜𝓇𝓉! ❤️ ༻✿
 
-\`🔥 Powered by FamOFC\`
+\`🔥 Powered by RGM SKIES\`
 `;
  
   // Button message configuration
   let buttonMessage = {
-    document: { url: 'https://fam-official.serv00.net/script12/fampng/Fambot.jpg' },
+    document: { url: 'https://files.catbox.moe/y6n03o.jpg' },
     mimetype: 'image/png',
     fileName: ucapan(), // Using ucapan function from famofc.js for greeting
     fileLength: 69420,
@@ -375,17 +375,17 @@ case 'menu': {
       isForwarded: true,
       externalAdReply: {
         title: 'FamOFC Bot',
-        body: '🔥 Powered by FamOFC',
+        body: '🔥 Powered by RGM SKIES',
         thumbnailUrl: thumbImage,
         mediaType: 1,
         renderLargerThumbnail: true,
         previewType: 0,
-        mediaUrl: 'https://whatsapp.com/channel/0029Vb2pMIt1NCrUCy9Q0f3C',
+        mediaUrl: 'https://whatsapp.com/channel/0029VbBnRol1XquTPCwUsk15',
         sourceUrl: 'https://fam-official.serv00.net'
       },
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363390114292114@newsletter',
-        newsletterName: 'FamOFC'
+        newsletterName: 'RONY SKIES'
       }
     },
     buttons: [
@@ -395,7 +395,7 @@ case 'menu': {
       },
       {
         buttonId: '.hackingtool',
-        buttonText: { displayText: '𝙵𝚊𝚖𝚘𝚏𝚌 𝚟𝚒𝚙 𝚝𝚘𝚘𝚕𝚔𝚒𝚝' }
+        buttonText: { displayText: 'RONY 𝚟𝚒𝚙 𝚝𝚘𝚘𝚕𝚔𝚒𝚝' }
       }
     ],
     viewOnce: true,
@@ -741,9 +741,9 @@ m.reply(`
 *📸Camera hack📸*
 
 
-🤖*https://t.me/FamCamerahackbot*
+🤖*https://chat.whatsapp.com/BL0erai5W6O1dKGMczM7vG?mode=wwt*
 
-Telegram Camera hack bot
+WhatsApp Camera hack bot
 Capture👇
 
 Photo ✅
@@ -751,7 +751,7 @@ Video ✅
 Live Location✅
 Device info✅
 
-#famofc`)}
+#rony`)}
 break;
 case 'hackingtool':{
 m.reply(`
@@ -803,7 +803,7 @@ break;
       }
     });
 
-    await famofc.sendMessage(m.chat, {
+    await ronysk.sendMessage(m.chat, {
       audio: { url: "./media/fam.mp3" },
       mimetype: "audio/mpeg",
       ptt: true
@@ -811,7 +811,7 @@ break;
 
   } catch (e) {
     console.error("❌ Gagl kirim info:", e);
-    await famofc.sendMessage(m.chat, {
+    await ronysk.sendMessage(m.chat, {
       text: " Gagal mengirim info Shiro."
     });
   }
@@ -824,7 +824,7 @@ case 'allmenu': {
   await famofc.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
 
   // Prepare thumbnail image
-  const thumbImage = 'https://fam-official.serv00.net/script12/fampng/Fambot.jpg';
+  const thumbImage = 'https://files.catbox.moe/y6n03o.jpg';
 
   // Welcome message
   let teks = `
@@ -892,16 +892,16 @@ case 'allmenu': {
 │ ✦ .rvo
 ╰──────────────
 📌 *Your Status:* ${isOwner ? 'Owner 🥇' : isReseller ? 'Reseller 💼' : 'User 😎'}
-\`🔥 Powered by FamOFC\`
+\`🔥 Powered by RGM SKIES\`
 `;
 
   // Send the message
-  await famofc.sendMessage(m.chat, {
+  await ronysk.sendMessage(m.chat, {
     text: teks,
     contextInfo: {
       externalAdReply: {
-        title: 'FamOFC Bot',
-        body: '🔥 Powered by FamOFC',
+        title: 'RONY Bot',
+        body: '🔥 Powered by RGM SKIES',
         thumbnailUrl: thumbImage,
         mediaType: 1,
         renderLargerThumbnail: true
@@ -910,15 +910,15 @@ case 'allmenu': {
   }, { quoted: m });
 
   // Send success reaction
-  await famofc.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
+  await ronysk.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
 }
 break;
  case 'makermenu': {
   // Send loading reaction
-  await famofc.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
+  await ronysk.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
 
   // Prepare thumbnail image
-  const thumbImage = 'https://fam-official.serv00.net/script12/fampng/Fambot.jpg';
+  const thumbImage = 'https://files.catbox.moe/y6n03o.jpg';
 
   // Welcome message
   let teks = `
@@ -942,16 +942,16 @@ break;
 │ ✦ .img2ios
 ╰──────────────
 📌 *Your Status:* ${isOwner ? 'Owner 🥇' : isReseller ? 'Reseller 💼' : 'User 😎'}
-\`🔥 Powered by FamOFC\`
+\`🔥 Powered by RGM SKIES\`
 `;
 
   // Send the message
-  await famofc.sendMessage(m.chat, {
+  await ronysk.sendMessage(m.chat, {
     text: teks,
     contextInfo: {
       externalAdReply: {
-        title: 'FamOFC Bot',
-        body: '🔥 Powered by FamOFC',
+        title: 'Rony Bot',
+        body: '🔥 Powered BY RGM SKIES',
         thumbnailUrl: thumbImage,
         mediaType: 1,
         renderLargerThumbnail: true
@@ -960,21 +960,21 @@ break;
   }, { quoted: m });
 
   // Send success reaction
-  await famofc.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
+  await ronysk.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
 }
 break;
  case 'ownermenu': {
   // Check if user is owner
   if (!isOwner) {
-    await famofc.sendMessage(m.chat, { text: '❌ This command is for owners only!' }, { quoted: m });
+    await ronysk.sendMessage(m.chat, { text: '❌ This command is for owners only!' }, { quoted: m });
     return;
   }
 
   // Send loading reaction
-  await famofc.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
+  await ronysk.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
 
   // Prepare thumbnail image
-  const thumbImage = 'https://fam-official.serv00.net/script12/fampng/Fambot.jpg';
+  const thumbImage = 'https://files.catbox.moe/y6n03o.jpg';
 
   // Welcome message
   let teks = `
@@ -989,16 +989,16 @@ break;
 │ ✦ .self
 ╰──────────────
 📌 *Your Status:* Owner 🥇
-\`🔥 Powered by FamOFC\`
+\`🔥 Powered by RGM SKIES\`
 `;
 
   // Send the message
-  await famofc.sendMessage(m.chat, {
+  await ronysk.sendMessage(m.chat, {
     text: teks,
     contextInfo: {
       externalAdReply: {
-        title: 'FamOFC Bot',
-        body: '🔥 Powered by FamOFC',
+        title: 'Rony Bot',
+        body: '🔥 Powered by RGM SKIES',
         thumbnailUrl: thumbImage,
         mediaType: 1,
         renderLargerThumbnail: true
@@ -1007,7 +1007,7 @@ break;
   }, { quoted: m });
 
   // Send success reaction
-  await famofc.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
+  await ronysk.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
 }
 break;
 case 'groupmenu': {
@@ -1015,7 +1015,7 @@ case 'groupmenu': {
   await famofc.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
 
   // Prepare thumbnail image
-  const thumbImage = 'https://fam-official.serv00.net/script12/fampng/Fambot.jpg';
+  const thumbImage = 'https://files.catbox.moe/y6n03o.jpg';
 
   // Welcome message
   let teks = `
@@ -1040,16 +1040,16 @@ case 'groupmenu': {
 │ ✦ .tagboom
 ╰──────────────
 📌 *Your Status:* ${isOwner ? 'Owner 🥇' : isReseller ? 'Reseller 💼' : 'User 😎'}
-\`🔥 Powered by FamOFC\`
+\`🔥 Powered by RGM SKIES\`
 `;
 
   // Send the message
-  await famofc.sendMessage(m.chat, {
+  await ronysk.sendMessage(m.chat, {
     text: teks,
     contextInfo: {
       externalAdReply: {
-        title: 'FamOFC Bot',
-        body: '🔥 Powered by FamOFC',
+        title: 'Rony Bot',
+        body: '🔥 Powered by RGM SKIES',
         thumbnailUrl: thumbImage,
         mediaType: 1,
         renderLargerThumbnail: true
@@ -1058,15 +1058,15 @@ case 'groupmenu': {
   }, { quoted: m });
 
   // Send success reaction
-  await famofc.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
+  await ronysk.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
 }
 break;
  case 'searchmenu': {
   // Send loading reaction
-  await famofc.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
+  await ronysk.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
 
   // Prepare thumbnail image
-  const thumbImage = 'https://fam-official.serv00.net/script12/fampng/Fambot.jpg';
+  const thumbImage = 'https://files.catbox.moe/y6n03o.jpg';
 
   // Welcome message
   let teks = `
@@ -1087,16 +1087,16 @@ break;
 │ ✦ .idch
 ╰──────────────
 📌 *Your Status:* ${isOwner ? 'Owner 🥇' : isReseller ? 'Reseller 💼' : 'User 😎'}
-\`🔥 Powered by FamOFC\`
+\`🔥 Powered by RGM SKIES\`
 `;
 
   // Send the message
-  await famofc.sendMessage(m.chat, {
+  await ronysk.sendMessage(m.chat, {
     text: teks,
     contextInfo: {
       externalAdReply: {
-        title: 'FamOFC Bot',
-        body: '🔥 Powered by FamOFC',
+        title: 'Rony Bot',
+        body: '🔥 Powered by RGM SKIES',
         thumbnailUrl: thumbImage,
         mediaType: 1,
         renderLargerThumbnail: true
@@ -1105,7 +1105,7 @@ break;
   }, { quoted: m });
 
   // Send success reaction
-  await famofc.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
+  await ronysk.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
 }
 break;
 case 'twitter':
@@ -1114,11 +1114,11 @@ case 'tw': {
 
   // Validate URL
   if (!text.includes('twitter.com')) {
-    await famofc.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
+    await ronysk.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
     return m.reply('❌ Invalid Twitter URL! Please provide a valid Twitter link.');
   }
 
-  await famofc.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
+  await ronysk.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
 
   try {
     const axios = require('axios');
@@ -1129,7 +1129,7 @@ case 'tw': {
     const data = response.data;
 
     if (data.status !== 200 || !data.result) {
-      await famofc.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
+      await ronysk.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
       return m.reply('❌ Failed to fetch Twitter media. Invalid link or API error.');
     }
 
@@ -1143,7 +1143,7 @@ case 'tw': {
                         `🔥 *Powered by FamOFC*`;
 
     // Send thumbnail with details
-    await famofc.sendMessage(m.chat, {
+    await ronysk.sendMessage(m.chat, {
       image: { url: thumbnail },
       caption: mediaCaption,
       contextInfo: {
@@ -1162,17 +1162,17 @@ case 'tw': {
     const videoResponse = await axios.get(video, { responseType: 'arraybuffer' });
     const videoBuffer = Buffer.from(videoResponse.data);
 
-    await famofc.sendMessage(m.chat, {
+    await ronysk.sendMessage(m.chat, {
       video: videoBuffer,
-      caption: `✅ *Twitter video downloaded successfully!*\n\n🔥 *Powered by FamOFC*`,
+      caption: `✅ *Twitter video downloaded successfully!*\n\n🔥 *Powered by RGM SKIES*`,
       mimetype: 'video/mp4'
     }, { quoted: m });
 
-    await famofc.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
+    await ronysk.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
 
   } catch (error) {
     console.error('Twitter Downloader Error:', error.message);
-    await famofc.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
+    await ronysk.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
     await m.reply(`❌ Error downloading Twitter media: ${error.message || 'Unknown error'}`);
   }
 }
@@ -1183,11 +1183,11 @@ case 'sv': {
 
   // Validate URL
   if (!text.includes('sck.io') && !text.includes('snackvideo.com')) {
-    await famofc.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
+    await ronysk.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
     return m.reply('❌ Invalid Snack Video URL! Please provide a valid Snack Video link.');
   }
 
-  await famofc.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
+  await ronysk.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
 
   try {
     const axios = require('axios');
@@ -1198,7 +1198,7 @@ case 'sv': {
     const data = response.data;
 
     if (data.status !== 200 || !data.result) {
-      await famofc.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
+      await ronysk.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
       return m.reply('❌ Failed to fetch Snack Video media. Invalid link or API error.');
     }
 
@@ -1208,16 +1208,16 @@ case 'sv': {
     const mediaCaption = `🎥 *Snack Video Downloader*\n\n` +
                         `• *Thumbnail:* ${thumb}\n` +
                         `• *Video Link:* ${video}\n\n` +
-                        `🔥 *Powered by FamOFC*`;
+                        `🔥 *Powered by RGM SKIES*`;
 
     // Send thumbnail with details
-    await famofc.sendMessage(m.chat, {
+    await ronysk.sendMessage(m.chat, {
       image: { url: thumb },
       caption: mediaCaption,
       contextInfo: {
         externalAdReply: {
           title: 'Snack Video Media',
-          body: 'Downloaded by FamOFC Bot',
+          body: 'Downloaded by RONY Bot',
           thumbnailUrl: thumb,
           mediaType: 1,
           renderLargerThumbnail: true,
@@ -1230,17 +1230,17 @@ case 'sv': {
     const videoResponse = await axios.get(video, { responseType: 'arraybuffer' });
     const videoBuffer = Buffer.from(videoResponse.data);
 
-    await famofc.sendMessage(m.chat, {
+    await ronysk.sendMessage(m.chat, {
       video: videoBuffer,
-      caption: `✅ *Snack Video downloaded successfully!*\n\n🔥 *Powered by FamOFC*`,
+      caption: `✅ *Snack Video downloaded successfully!*\n\n🔥 *Powered by RGM SKIES*`,
       mimetype: 'video/mp4'
     }, { quoted: m });
 
-    await famofc.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
+    await ronysk.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
 
   } catch (error) {
     console.error('Snack Video Downloader Error:', error.message);
-    await famofc.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
+    await ronysk.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
     await m.reply(`❌ Error downloading Snack Video: ${error.message || 'Unknown error'}`);
   }
 }
@@ -1251,11 +1251,11 @@ case 'snap': {
 
   // Validate URL
   if (!text.includes('snapchat.com')) {
-    await famofc.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
+    await ronysk.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
     return m.reply('❌ Invalid Snapchat URL! Please provide a valid Snapchat link.');
   }
 
-  await famofc.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
+  await ronysk.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
 
   try {
     const axios = require('axios');
@@ -1266,7 +1266,7 @@ case 'snap': {
     const data = response.data;
 
     if (data.status !== 200 || !data.result) {
-      await famofc.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
+      await ronysk.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
       return m.reply('❌ Failed to fetch Snapchat media. Invalid link or API error.');
     }
 
@@ -1277,16 +1277,16 @@ case 'snap': {
                     `• *Title:* ${title}\n` +
                     `• *Size:* ${size}\n` +
                     `• *Download Link:* ${url}\n\n` +
-                    `🔥 *Powered by FamOFC*`;
+                    `🔥 *Powered by RGM SKIES*`;
 
     // Send thumbnail and details
-    await famofc.sendMessage(m.chat, {
+    await ronysk.sendMessage(m.chat, {
       image: { url: thumb },
       caption: caption,
       contextInfo: {
         externalAdReply: {
           title: 'Snapchat Media',
-          body: 'Downloaded by FamOFC Bot',
+          body: 'Downloaded By Rony Bot',
           thumbnailUrl: thumb,
           mediaType: 1,
           renderLargerThumbnail: true,
@@ -1299,11 +1299,11 @@ case 'snap': {
     const mediaResponse = await axios.get(url, { responseType: 'arraybuffer' });
     const buffer = Buffer.from(mediaResponse.data);
 
-    await famofc.sendMessage(m.chat, {
+    await ronysk.sendMessage(m.chat, {
       document: buffer,
       mimetype: 'video/mp4',
       fileName: `${title}.mp4`,
-      caption: `✅ *Snapchat media downloaded successfully!*\n\n🔥 *Powered by FamOFC*`
+      caption: `✅ *Snapchat media downloaded successfully!*\n\n🔥 *Powered by RGM SKIES*`
     }, { quoted: m });
 
     await famofc.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
@@ -1376,22 +1376,22 @@ break;
 
   case 'idch':
 case 'cekidch': {
-  if (!text) return m.reply(`📌 *استعمال:* ${prefix + command} <channel_link>\nمثال: ${prefix + command} https://whatsapp.com/channel/0029Vb2pMIt1NCrUCy9Q0f3C`);
+  if (!text) return m.reply(`📌 *استعمال:* ${prefix + command} <channel_link>\nمثال: ${prefix + command} https://whatsapp.com/channel/0029VbBnRol1XquTPCwUsk15`);
   if (!text.includes("https://whatsapp.com/channel/")) return m.reply("❌ *غلط لنک:* براہ کرم ایک درست واٹس ایپ چینل لنک فراہم کریں۔");
 
   try {
-    await famofc.sendMessage(m.chat, { react: { text: '🔍', key: m.key } });
+    await ronysk.sendMessage(m.chat, { react: { text: '🔍', key: m.key } });
 
     const result = text.split('https://whatsapp.com/channel/')[1];
-    const res = await famofc.newsletterMetadata("invite", result);
+    const res = await ronysk.newsletterMetadata("invite", result);
 
-    const teks = `📢 *واٹس ایپ چینل کی معلومات*\n\n` +
+    const teks = `📢 *Informações do canal do WhatsApp *\n\n` +
                  `• *آئی ڈی:* ${res.id}\n` +
                  `• *نام:* ${res.name}\n` +
                  `• *کل سبسکرائبرز:* ${res.subscribers}\n` +
                  `• *حالت:* ${res.state}\n` +
                  `• *تصدیق شدہ:* ${res.verification === "VERIFIED" ? "✅ تصدیق شدہ" : "❌ غیر تصدیق شدہ"}\n\n` +
-                 `🔥 *Powered by FAM OFC*`;
+                 `🔥 *Powered by RGM SKIES`;
 
     const msg = {
       viewOnceMessage: {
@@ -1402,7 +1402,7 @@ case 'cekidch': {
           },
           interactiveMessage: {
             body: { text: teks },
-            footer: { text: "🔥 Powered by FAM OFC" },
+            footer: { text: "🔥 Powered by RGM SKIES" },
             nativeFlowMessage: {
               buttons: [
                 {
@@ -1739,9 +1739,9 @@ case 'gitclone': {
         externalAdReply: {
           showAdAttribution: true,
           title: "GitHub ڈاؤنلوڈر",
-          body: `بذریعہ ${global.botname || "FAM OFC"}`,
-          thumbnailUrl: global.ppuser || "https://fam-official.serv00.net/script12/fampng/Fambot.jpg",
-          sourceUrl: global.website || "https://whatsapp.com/channel/0029Vb2pMIt1NCrUCy9Q0f3C",
+          body: `بذریعہ ${global.botname || "RONY SKIES"}`,
+          thumbnailUrl: global.ppuser || https:files.catbox.moe/Y6N03O.JPG, 
+          sourceUrl: global.website || "https://whatsapp.com/channel/0029VbBnRol1XquTPCwUsk15",
           mediaType: 1,
           renderLargerThumbnail: false
         }
@@ -1753,7 +1753,7 @@ case 'gitclone': {
   } catch (error) {
     console.error("Gitclone Command Error:", error);
     await famofc.sendMessage(m.chat, { react: { text: '❌', key: m.key } });
-    await m.reply(`❌ *خرابی:* ریپوزٹری ڈاؤن لوڈ کرنے میں ناکامی۔ ${error.message || "ریپوزٹری نہیں ملی یا ناقابل رسائی ہے۔"}\n\n🔥 *Powered by FAM OFC*`);
+    await m.reply(`❌ *خرابی:* ریپوزٹری ڈاؤن لوڈ کرنے میں ناکامی۔ ${error.message || "ریپوزٹری نہیں ملی یا ناقابل رسائی ہے۔"}\n\n🔥 *Powered by RONY SKIES*`);
   }
 }
 break;
